@@ -33,7 +33,7 @@ app.get('/about',(req,res)=>{
 app.get('/help',(req,res)=>{
     res.render('help',{
         title:'HELP',
-        description:'this is the help page',
+        description: 'welcome to the help page',
         author:'Tashi TPS'
     })
 })

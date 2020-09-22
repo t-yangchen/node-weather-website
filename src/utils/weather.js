@@ -8,7 +8,7 @@ const weather = (lat,long,callback)=>{
         }
  
         else{
-            callback(undefined,body.current.weather_descriptions[0] + ' it is currently ' + body.current.temperature + ' degrees out there. But it feels like '+ body.current.feelslike)
+            callback(undefined,'it is '+body.current.weather_descriptions[0] + '\nit is currently ' + body.current.temperature + ' degrees out there. But it feels like '+ body.current.feelslike)
         }
     })
 }
